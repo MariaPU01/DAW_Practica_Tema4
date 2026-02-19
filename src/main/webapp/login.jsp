@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<h1>Login</h1>
-		<form action="LoginServlet" method="post">
+		<form action="login" method="post">
 			<input type="text" name="usuario"/>
 			<input type="password" name="clave"/>
 			<br/>

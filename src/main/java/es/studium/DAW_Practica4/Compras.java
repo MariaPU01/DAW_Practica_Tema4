@@ -6,13 +6,13 @@ public class Compras {
 
 	//Atributos
 	private int idCompra;
-	private Tiendas tienda;
-	private Usuarios usuario;
+	private int tienda;
+	private int usuario;
 	private LocalDate fechaCompra;
 	private double importe;
 	
 	//Constructor
-	public Compras(int idCompra, Tiendas tienda, Usuarios usuario, LocalDate fechaCompra, double importe) {
+	public Compras(int idCompra, int tienda, int usuario, LocalDate fechaCompra, double importe) {
 		this.idCompra = idCompra;
 		this.tienda = tienda;
 		this.usuario = usuario;
@@ -29,19 +29,19 @@ public class Compras {
 		this.idCompra = idCompra;
 	}
 	
-	public Tiendas getTiendas() {
+	public int getTienda() {
 		return tienda;
 	}
 	
-	public void setTiendas(Tiendas tienda) {
+	public void setTiendas(int tienda) {
 		this.tienda = tienda;
 	}
 	
-	public Usuarios getUsuario() {
+	public int getUsuario() {
 		return usuario;
 	}
 	
-	public void setUsuario(Usuarios usuario) {
+	public void setUsuario(int usuario) {
 		this.usuario = usuario;
 	}
 	
